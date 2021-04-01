@@ -21,7 +21,7 @@ import urllib3
 
 excel_file = openpyxl.Workbook()
 excel_sheet = excel_file.active
-excel_sheet.column_dimensions['B'].width = 100
+excel_sheet.column_dimensions['B'].width = 200
 
 num = 0
 excel_sheet.append(['번호', '제목'])
