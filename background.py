@@ -22,7 +22,7 @@ import urllib3
 excel_file = openpyxl.Workbook()
 excel_sheet = excel_file.active
 
-excel_sheet.column_dimensions['B'].width = 300
+excel_sheet.column_dimensions['B'].width = 200
 
 
 num = 0
