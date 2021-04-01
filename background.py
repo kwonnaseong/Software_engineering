@@ -24,7 +24,7 @@ excel_sheet = excel_file.active
 excel_sheet.column_dimensions['B'].width = 100
 
 num = 0
-excel_sheet.append(['번호', '제목'])
+excel_sheet.append(['num', 'title'])
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 res=requests.get("홈페이지 주소", verify=False).text
 requests.packages.urllib3.disable_warnings(requests.packages.urllib3.exceptions.InsecureRequestWarning)
